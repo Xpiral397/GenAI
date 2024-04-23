@@ -23,6 +23,14 @@ const Sidebar = () => {
         </li>
         <li className="flex items-center px-4 py-2 hover:bg-gray-800 cursor-pointer">
           <Topic className="h-6 w-6 mr-2" />
+          Calculus
+        </li>
+        <li className="flex items-center px-4 py-2 hover:bg-gray-800 cursor-pointer">
+          <Topic className="h-6 w-6 mr-2" />
+          Differential Calculus
+        </li>
+        <li className="flex items-center px-4 py-2 hover:bg-gray-800 cursor-pointer">
+          <Topic className="h-6 w-6 mr-2" />
           Geometry
         </li>
         {/* Add more list items with icons for other math topics */}
