@@ -40,12 +40,12 @@ export default function RootLayout({
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "white" }}>
-          <div className="relative flex flex-col h-screen">
+          <div className="relative flex flex-col ">
             <div>
               <Navbar />
             </div>
             <div className="mt-1 w-ful flex space-x-3 space-y-1">
-              <Sidebar /> <main className="w-full h-full">{children}</main>
+              <main className="w-full h-full">{children}</main>
             </div>
           </div>
         </Providers>
